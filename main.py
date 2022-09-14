@@ -41,7 +41,7 @@ df ['Result'] = np.select(conditions, choices, default = 'null')
 # df.loc[(df['Predicted_price'] < df['Open'])&(df['Close'] < df['Open']),'Result'] = 'Match'
 # df.loc[(df['Predicted_price'] < df['Open'])&(df['Close'] > df['Open']),'Result'] = 'Mismatch'
 
-#print (df)
+print (df)
 
 # predicted_price.plot(figsize=(10,5))
 # y_test.plot()
